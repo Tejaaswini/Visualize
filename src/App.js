@@ -1,11 +1,11 @@
 import React from 'react';
-// import logo from './logo.svg';
+import SortingVisualizer from './Sorting/Sorting';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <p>Hola!</p>
+      <SortingVisualizer></SortingVisualizer>
     </div>
   );
 }
