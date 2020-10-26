@@ -1,11 +1,12 @@
 import React, { Component } from "react";
 import './Sorting.css'
 import {mergeSortAlgo} from '../SortingAlgo/mergeSort'
+import {quickSortAlgo} from '../SortingAlgo/quickSort'
 
-const ANIMATION_SPEED_MS = 50;
+const ANIMATION_SPEED_MS = 200;
 const NUMBER_OF_ARRAY_BARS = 40;
-const PRIMARY_COLOR = 'turquoise';
-const SECONDARY_COLOR = 'red';
+const PRIMARY_COLOR = '#16697a';
+const SECONDARY_COLOR = '#db6400';
 
 export class Sorting extends Component {
     constructor(props) {
@@ -57,6 +58,7 @@ export class Sorting extends Component {
     
         return (
           <div className="array-container">
+            <h1>Visualize!</h1>
             {array.map((value, idx) => (
               <div
                 className="array-bar"
@@ -64,11 +66,13 @@ export class Sorting extends Component {
                 style={{
                   backgroundColor: PRIMARY_COLOR,
                   height: `${value}px`,
-                }}>{value}</div>
+                  marginTop:'3vh'
+                }}></div>
             ))}
-            <div>
-            <button onClick={() => this.resetArray()}>Generate New Array</button>
-            <button onClick={() => this.mergeSort()}>Merge Sort</button>
+            <div className="button-class">
+            <button onClick={() => this.resetArray()} className="gen-button">Generate New Array</button>
+            <button onClick={() => this.mergeSort()} className="algo-button">Merge Sort</button>
+            <button className="algo-button">Quick Sort</button>
             </div>
             
           </div>
