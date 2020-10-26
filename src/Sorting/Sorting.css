@@ -3,8 +3,26 @@
     left: 100px;
   }
   
-  .array-bar {
+.array-bar {
     width: 30px;
     display: inline-block;
     margin: 0 1px;
   }
+.button-class{
+    margin-top: 5vh;
+}
+.gen-button,.algo-button{
+  width:10vw;
+  height:8vh;
+  background-color: #ffa62b;
+  color:#272343;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.algo-button{
+  margin-left: 15px;
+}
+.array-container{
+  margin-top: 6vh;
+}
