@@ -184,7 +184,7 @@ export default class SortingVisualizer extends React.Component {
             </button>
             <button
               className="button-color  button-hover"
-              onClick={this.btnClickSlow.bind(this)} 
+              onClick={this.btnClickSlow.bind(this)}
             >
               Slow
             </button>
