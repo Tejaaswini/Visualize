@@ -1,28 +1,65 @@
-.container {
-    position: absolute;
-    left: 100px;
-  }
-  
+.array-container {
+	display: inline-block;
+	background: #726a95;
+	border: 1px solid white;
+	position: relative;
+}
 .array-bar {
-    width: 30px;
-    display: inline-block;
-    margin: 0 1px;
-  }
-.button-class{
-    margin-top: 5vh;
+	position: relative;
+	background:#726a95;
 }
-.gen-button,.algo-button{
-  width:10vw;
-  height:8vh;
-  background-color: #ffa62b;
-  color:#272343;
-  font-weight: bold;
-  cursor: pointer;
-  border: none;
+.numbers {
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bold;
+	font-style: oblique;
+	color: white;
 }
-.algo-button{
-  margin-left: 15px;
+.footer-buttons {
+	position: relative;
+	top: 94vh;
 }
-.array-container{
-  margin-top: 6vh;
+.button-color {
+	color: white;
+	background-color: #709fb0;
+	width:10vw;
+	height: 5vh;
+	border: none;
+	margin-left: 20px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.button-hover:hover {
+	background-color: #a0c1b8;
+	color:black;
+	border: none !important;
+}
+.slider1::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	cursor: pointer;
+}
+.slider{
+	margin-bottom: 5vh;
+	margin-top: -20px;
+}
+.button-tools {
+	color: white;
+	background-color: #005086;
+	width:10vw;
+	height: 5vh;
+	border: none;
+	margin-left: 20px;
+	border-radius: 15px;
+	cursor: pointer;
+}
+.upper-button{
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.speed{
+	font-size: 20px;
+	font-weight: 500;
+	margin-left: 15px;
+	margin-top: 5px;
 }
