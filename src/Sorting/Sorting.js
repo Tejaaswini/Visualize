@@ -175,7 +175,7 @@ export default class SortingVisualizer extends React.Component {
             >
               Random Array
             </button>
-            <div className="speed">Select Speed : </div>
+            <div className="speed">Select Speed (default:fast) : </div>
             <button
               className="button-color button-hover "
               onClick={this.btnClickNormal.bind(this)}
