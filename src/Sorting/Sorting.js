@@ -145,7 +145,7 @@ export default class SortingVisualizer extends React.Component {
         <div>
           <div className="slider">
             <div className="slider row justify-content-center">
-              <label>Number of Bars</label>
+              <label>How many bars do you want?</label>
               <input
                 id="slider"
                 className="slider1 custom-range"
