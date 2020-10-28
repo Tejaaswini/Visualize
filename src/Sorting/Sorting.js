@@ -32,9 +32,6 @@ export default class SortingVisualizer extends React.Component {
     }
     this.setState({ array });
   }
-  seeAnother() {
-    window.location.reload();
-  }
   btnClickSlow() {
     this.setState({ speed: 80 });
   }
@@ -165,15 +162,7 @@ export default class SortingVisualizer extends React.Component {
               className="button-tools"
               onClick={() => this.resetArray()}
             >
-              Shuffle Array
-            </button>
-            <button
-              id="try"
-              type="button"
-              className="button-tools"
-              onClick={() => this.seeAnother()}
-            >
-              Random Array
+              Reset Array
             </button>
             <div className="speed">Select Speed (default speed-fast) : </div>
             <button
