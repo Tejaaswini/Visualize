@@ -1,5 +1,6 @@
 PWA enabled Sorting Visualiser
-Algorithms - Quick Sort, Merge Sort, Heap Sort
+
+## Algorithms - Quick Sort, Merge Sort, Heap Sort
 
 # How to run?
 1. Clone the repo
